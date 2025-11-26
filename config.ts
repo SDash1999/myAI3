@@ -24,7 +24,8 @@ function getDateAndTime(): string {
         minute: "2-digit",
         timeZoneName: "short",
     });
-    return The day today is ${dateStr} and the time right now is ${timeStr}.;
+    return `The day today is ${dateStr} and the time right now is ${timeStr}.`
+    // return The day today is ${dateStr} and the time right now is ${timeStr}.;
 }
 
 export const DATE_AND_TIME = getDateAndTime();
